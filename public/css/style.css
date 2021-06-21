@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: 200;
+}
+
+.logopedMainPage {
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+}
+.logopedMainPage .logopedMainPage__headerInner .logopedMainPage__headerNav {
+  background-color: #2960b1;
+  height: 75px;
+}
+.logopedMainPage .logopedMainPage__headerInner .logopedMainPage__headerNav .logopedMainPage__headerNav_image {
+  max-width: 250px;
+  padding-top: 10px;
+  padding-left: 50px;
+}
+.logopedMainPage .logopedMainPage__headerInner .logopedMainPage__headerNav .logopedMainPage__headerNav_buttonWrapper {
+  padding-top: -50px;
+  max-width: 910px;
+  width: 100%;
+  margin: -45px auto;
+}
+.logopedMainPage .logopedMainPage__headerInner .logopedMainPage__headerNav .logopedMainPage__headerNav_buttonWrapper .logopedMainPage__headerNav_button {
+  background-color: #2960b1;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 5%;
+  width: 165px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 70%;
+  margin-left: 5%;
+  transition: 0.2s;
+}
+.logopedMainPage .logopedMainPage__headerInner .logopedMainPage__headerNav .logopedMainPage__headerNav_buttonWrapper .logopedMainPage__headerNav_button:hover {
+  opacity: 1;
+}
+.logopedMainPage .logopedMainPage__headerInner .logopedMainPage__headerLogo .logopedMainPage__headerLogo_image {
+  max-width: 250px;
+  margin: 20px 44% 15px 44%;
+}
+.logopedMainPage .logopedMainPage__headerInner .logopedMainPage__headerLogo .tagLine {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 100;
+}
+.logopedMainPage .logopedMainPage__sliderInner {
+  margin: 20px auto;
+}
+.logopedMainPage .logopedMainPage__sliderInner .logopedMainPage__slider .logopedMainPage__slider_activeElementWrapper {
+  max-width: 910px;
+  width: 100%;
+  margin: 20px auto;
+  position: relative;
+}
+.logopedMainPage .logopedMainPage__sliderInner .logopedMainPage__slider .logopedMainPage__slider_activeElementWrapper .logopedMainPage__slider_activeElement {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+.logopedMainPage .logopedMainPage__sliderInner .logopedMainPage__slider .logopedMainPage__slider_activeElementWrapper .logopedMainPage__slider_leftIconWrapper,
+.logopedMainPage .logopedMainPage__sliderInner .logopedMainPage__slider .logopedMainPage__slider_activeElementWrapper .logopedMainPage__slider_rigthIconWrapper {
+  position: absolute;
+  height: 100%;
+}
+.logopedMainPage .logopedMainPage__sliderInner .logopedMainPage__slider .logopedMainPage__slider_activeElementWrapper .logopedMainPage__slider_leftIconWrapper .logopedMainPage__slider_rightIcon:hover,
+.logopedMainPage .logopedMainPage__sliderInner .logopedMainPage__slider .logopedMainPage__slider_activeElementWrapper .logopedMainPage__slider_rigthIconWrapper .logopedMainPage__slider_rightIcon:hover {
+  opacity: 1;
+}
+.logopedMainPage .logopedMainPage__sliderInner .logopedMainPage__slider .logopedMainPage__slider_activeElementWrapper .logopedMainPage__slider_leftIconWrapper .logopedMainPage__slider_leftIcon:hover,
+.logopedMainPage .logopedMainPage__sliderInner .logopedMainPage__slider .logopedMainPage__slider_activeElementWrapper .logopedMainPage__slider_rigthIconWrapper .logopedMainPage__slider_leftIcon:hover {
+  opacity: 1;
+}
+.logopedMainPage .logopedMainPage__sliderInner .logopedMainPage__slider .logopedMainPage__slider_activeElementWrapper .logopedMainPage__slider_leftIconWrapper .logopedMainPage__slider_leftIcon,
+.logopedMainPage .logopedMainPage__sliderInner .logopedMainPage__slider .logopedMainPage__slider_activeElementWrapper .logopedMainPage__slider_leftIconWrapper .logopedMainPage__slider_rightIcon,
+.logopedMainPage .logopedMainPage__sliderInner .logopedMainPage__slider .logopedMainPage__slider_activeElementWrapper .logopedMainPage__slider_rigthIconWrapper .logopedMainPage__slider_leftIcon,
+.logopedMainPage .logopedMainPage__sliderInner .logopedMainPage__slider .logopedMainPage__slider_activeElementWrapper .logopedMainPage__slider_rigthIconWrapper .logopedMainPage__slider_rightIcon {
+  background-color: #2960b1;
+  height: 99%;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #fff;
+  opacity: 0.6;
+  transition: 0.3s;
+  width: 40px;
+}
+.logopedMainPage .logopedMainPage__sliderInner .logopedMainPage__slider .logopedMainPage__slider_activeElementWrapper .logopedMainPage__slider_rigthIconWrapper {
+  right: 0;
+}
+.logopedMainPage .logopedMainPage__sliderInner .logopedMainPage__slider .logopedMainPage__slider_activeElementWrapper .logopedMainPage__slider_leftIconWrapper {
+  left: 0;
+}
+.logopedMainPage .logopedMainPage__infoInner .logopedMainPage__infoText {
+  font-weight: 200;
+  font-size: 25px;
+  text-align: justify;
+  margin: 50px 20% 50px 20%;
+}
+.logopedMainPage .logopedMainPage__infoInner .logopedMainPage__imageInner {
+  max-width: 910px;
+  width: 100%;
+  margin: 50px auto;
+}
+.logopedMainPage .logopedMainPage__infoInner .logopedMainPage__imageInner .logopedMainPage__img {
+  width: 100%;
+}
+.logopedMainPage .logopedMainPage__contactFormInner {
+  max-width: 475px;
+  width: 100%;
+  margin: -25px auto 0;
+  position: relative;
+}
+.logopedMainPage .logopedMainPage__contactFormInner label {
+  cursor: pointer;
+}
+.logopedMainPage .logopedMainPage__contactFormInner .logopedMainPage__contactForm_form .logopedMainPage__contactForm_text {
+  font-size: 25px;
+  margin: 15px 0 5px 10px;
+}
+.logopedMainPage .logopedMainPage__contactFormInner .logopedMainPage__contactForm_form .logopedMainPage__contactForm_checkText {
+  font-size: 20px;
+  margin: 20px -15px 5px 25px;
+}
+.logopedMainPage .logopedMainPage__contactFormInner .logopedMainPage__contactForm_form .logopedMainPage__contactForm_input {
+  border: 2px solid #2960b1;
+  max-width: 475px;
+  width: 100%;
+  height: 35px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.logopedMainPage .logopedMainPage__contactFormInner .logopedMainPage__contactForm_form .logopedMainPage__contactForm_checkbox {
+  position: absolute;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  margin-top: 0;
+  cursor: pointer;
+}
+.logopedMainPage .logopedMainPage__contactFormInner .logopedMainPage__contactForm_send {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #fff;
+  font-weight: bolder;
+  font-family: Roboto, sans-serif;
+  background-color: #2960b1;
+  width: 103%;
+  font-size: 25px;
+  opacity: 0.8;
+  transition: 0.2s;
+}
+.logopedMainPage .logopedMainPage__contactFormInner .logopedMainPage__contactForm_send:hover {
+  opacity: 1;
+}
+
+/*# sourceMappingURL=style.css.map */

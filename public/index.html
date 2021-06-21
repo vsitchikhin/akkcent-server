@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>AkkCent</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- Main page -->
+        <div class="logopedMainPage">
+            <!-- Header -->
+            <div class="logopedMainPage__headerInner">
+                <!-- HeaderNav -->
+                <div class="logopedMainPage__headerNav">
+                    <img src="img/logo/logoDark.png" alt="AkkCent" class="logopedMainPage__headerNav_image">
+                    <div class="logopedMainPage__headerNav_buttonWrapper">
+                        <button class="logopedMainPage__headerNav_button">HOME</button>
+                        <button class="logopedMainPage__headerNav_button">ABOUT</button>
+                        <button class="logopedMainPage__headerNav_button">CONTACT</button>
+                        <button class="logopedMainPage__headerNav_button">LOG/SING IN</button>
+                    </div>
+                </div>
+                <!-- HeaderLogo -->
+                <div class="logopedMainPage__headerLogo">
+                    <img src="img/logo/logo.png" alt="AkkCent" class="logopedMainPage__headerLogo_image">
+                    <h1 class="tagLine">Акцент - интересная штука!</h1>
+                    <h1 class="tagLine">Он вроде бы есть, а вроде и нет</h1>
+                    <h1 class="tagLine">Но! Зато наша наука</h1>
+                    <h1 class="tagLine">Избавит тебя от всех его бед!</h1>
+                </div>
+
+            </div>
+            <!-- Slider -->
+            <div class="logopedMainPage__sliderInner">
+                <!-- Slider -->
+                <div class="logopedMainPage__slider">
+                    <div class="logopedMainPage__slider_activeElementWrapper">
+                        <div class="logopedMainPage__slider_leftIconWrapper">
+                            <button class="logopedMainPage__slider_leftIcon fas fa-arrow-left" id="previous"></button>
+                        </div>
+                        <div class="logopedMainPage__slider_rigthIconWrapper">
+                            <button class="logopedMainPage__slider_rightIcon fas fa-arrow-right" id="next"></button>
+                        </div>
+                        <img src="img/sliderImages/1.jpg" alt="active element" class="logopedMainPage__slider_activeElement">
+                    </div>
+                </div>
+            </div>
+            <!-- Info -->
+            <div class="logopedMainPage__infoInner">
+                <p class="logopedMainPage__infoText">
+                    Наш проект призван помочь Вашему ребёнку не только научиться произношению,
+                    но и заинтересоваться обучением и самосовершенствованием!
+                    Наше мобильное приложение имеет 2 вида аккаунтов: аккаунт ребенка и аккаунт преподавателя.
+                    Ребенок со своего аккаунта имеет возможность выполнять игровые задания,
+                    а преподаватель - помечать те, что необходимо выполнить и следить за прогрессом ребенка.
+                </p>
+                <div class="logopedMainPage__imageInner">
+                    <img src="img/mainPageImages/findYourTeacher.png" alt="find your teacher" class="logopedMainPage__img">
+                </div>
+
+                <p class="logopedMainPage__infoText">
+                    Приложение даст возможность найти Вашему ребенку лучшего логопеда:
+                    интерактивная карта поможет найти преподавателя в удобном местоположении,
+                    а специальные карточки преподавателей позволят узнать подробную информацию.
+                    Вы можете связаться с понравившимся педагогом прямо в приложении с помощью чата.
+                </p>
+                <div class="logopedMainPage__imageInner">
+                    <img src="img/mainPageImages/teacher.png" alt="teacher" class="logopedMainPage__img">
+                </div>
+
+                <p class="logopedMainPage__infoText">
+                    Наша задача - создать интересное приключение,
+                    в котором Ваш ребёнок сможет не только почувствовать себя главным героем,
+                    но еще и много чему научиться! Ведь настоящий путь героя - это не только великие подвиги,
+                    но и тяжелый труд над самим собой.
+                </p>
+                <div class="logopedMainPage__imageInner">
+                    <img src="img/mainPageImages/happyChild.jpg" alt="happy child" class="logopedMainPage__img">
+                </div>
+
+                <p class="logopedMainPage__infoText">
+                    Заполнив данную форму, Вы можете связаться с нами и оставить заявку на бесплатное бета-тестирование.
+                    Так же Вы будете получать самую актуальную информацию о нововведениях.
+                </p>
+            </div>
+            <!-- Form -->
+            <div class="logopedMainPage__contactFormInner">
+                <div class="logopedMainPage__contactFormInner">
+                    <form action="/api/taste" method="post" enctype="multipart/form-data" class="logopedMainPage__contactForm_form" id="betaTestForm">
+                        <label for="email">
+                            <p class="logopedMainPage__contactForm_text">Email</p>
+                            <input type="text" name="email" value="" id="email" class="logopedMainPage__contactForm_input">
+                        </label>
+                        <label for="name">
+
+                            <p class="logopedMainPage__contactForm_text">ФИО</p>
+                            <input type="text" name="name" value="" id="name" class="logopedMainPage__contactForm_input">
+                        </label>
+                        <label for="dataProcessing">
+                            <p class="logopedMainPage__contactForm_checkText">Согласие на обработку персональных данных
+                                <input type="checkbox" name="dataProcessing" value="" id="dataProcessing" class="logopedMainPage__contactForm_checkbox">
+                            </p>
+                        </label>
+                        <label for="mailing">
+                            <p class="logopedMainPage__contactForm_checkText">Согласие на рассылку новостей о нашем проекте
+                                <input type="checkbox" name="mailing" value="" id="mailing" class="logopedMainPage__contactForm_checkbox">
+                            </p>
+                        </label>
+
+                    </form>
+                    <button class="logopedMainPage__contactForm_send" id="send" type="submit">Отправить</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://kit.fontawesome.com/d1d2a721a0.js" crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

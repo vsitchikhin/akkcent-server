@@ -1,0 +1,9 @@
+POST http://localhost:3000/api/taste
+Content-Type: application/json
+
+{
+  "email": "email@em.com",
+  "name": "Name Namovich Namov",
+  "dataProcessing": "true",
+  "mailing": "false",
+}
