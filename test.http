@@ -5,5 +5,5 @@ Content-Type: application/json
   "email": "email@em.com",
   "name": "Name Namovich Namov",
   "dataProcessing": "true",
-  "mailing": "false",
+  "mailing": "false"
 }

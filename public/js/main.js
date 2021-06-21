@@ -82,6 +82,7 @@ send.onclick = async function () {
     }
 
 
+
     // const request = new XMLHttpRequest();
     //
     // request.open("POST", "/api/taste", true);
