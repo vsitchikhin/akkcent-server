@@ -1,3 +1,4 @@
+// @ts-check
 const express = require('express');
 const { Sequelize, DataTypes, Model } = require('sequelize');
 const app = express();
