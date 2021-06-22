@@ -8,10 +8,10 @@ const path = require('path')
 const port = process.env.PORT || 3000;
 
 
-const sequelize = new Sequelize('akkcent', 'user', '123123', {
-    host: 'localhost',
+const sequelize = new Sequelize('m45vh03qro21e6rc', 'drj8ke4c303wdzba', 'f8t0dn8iwrof5ufk', {
+    host: 'lmc8ixkebgaq22lo.chr7pe7iynqr.eu-west-1.rds.amazonaws.com',
     dialect: 'mysql',
-    port: 3307
+    port: 3306 || 3307
 });
 
 
